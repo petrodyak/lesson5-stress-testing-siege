@@ -45,7 +45,7 @@ def add_user():
     
     # return render_template('user_form.html')
 
-# Old version does not work properly
+# Work properly
 @app.route('/user_list', methods=['GET'])
 def user_list():
     search_query = request.args.get('search', '')
