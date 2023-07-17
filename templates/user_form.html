@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Form</title>
+</head>
+
+<body>
+    <h1>Add user form</h1>
+    <form method="POST" action="/">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" required><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <form method="POST" action="user_list">
+        <input type="text" id="search" name="search" placeholder="Search...">
+        <input type="submit" value="Search">
+    </form>
+    <br>
+    <form action="process" method="POST">
+        <label for="username">Please enter your name: </label>
+        <input type="text" id="username" name="username">
+        <input type="submit" value="SEND">
+    </form>
+</body>
+
+</html>
