@@ -61,7 +61,7 @@ def user_list():
     _first_name = ''
     _last_name = ''
     for user in users:
-        print ('!!! USER = ', user)
+        # print ('!!! USER = ', user)
         _first_name = user["first_name"]
         _last_name = user["last_name"]         
     

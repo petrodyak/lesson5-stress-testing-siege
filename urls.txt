@@ -1,0 +1,5 @@
+http://localhost:5000/add_user?firstname=Petro11&lastname=Land11
+http://localhost:5000/add_user?firstname=Petro22&lastname=Land22
+http://localhost:5000/add_user?firstname=Petro33&lastname=Land33
+http://localhost:5000/add_user?firstname=Petro44&lastname=Land44
+http://localhost:5000/add_user?firstname=Petro55&lastname=Land55
